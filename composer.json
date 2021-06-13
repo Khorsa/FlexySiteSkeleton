@@ -1,0 +1,48 @@
+{
+  "name": "flexycms/flexysiteskeleton-bundle",
+  "version": "0.1.0",
+  "type": "symfony-bundle",
+  "description": "Скелет сайта (установщик)",
+  "license": "proprietary",
+  "require": {
+    "php": "^7.3",
+	
+	"symfony/apache-pack": "*",
+
+	"flexycms/flexyadminframe-bundle": "*",
+	"flexycms/breadcrumbs-bundle": "*",
+	"flexycms/flexyadminhome-bundle": "*",
+	"flexycms/flexyarticles-bundle": "*",
+	"flexycms/flexycache-bundle": "*",
+	"flexycms/flexyfilemanager-bundle": "*",
+	"flexycms/flexysecurity-bundle": "*",
+	"flexycms/flexyseo-bundle": "*",
+	"flexycms/flexytemlates-bundle": "*",
+	"flexycms/flexyutils-bundle": "*"
+
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "flexycms\\FlexySiteSkeleton\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "flexycms\\FlexySiteSkeleton\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test" : "./vendor/bin/simple-phpunit"
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false,
+      "require": "5.0.*"
+    }
+  }
+}
