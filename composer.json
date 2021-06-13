@@ -1,6 +1,6 @@
 {
   "name": "flexycms/flexysiteskeleton-bundle",
-  "version": "0.1.0",
+  "version": "0.1.0.1",
   "type": "symfony-bundle",
   "description": "Скелет сайта (установщик)",
   "license": "proprietary",
@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "flexycms\\FlexySiteSkeleton\\": "src/"
+      "flexycms\\FlexySiteSkeletonBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "flexycms\\FlexySiteSkeleton\\Tests\\": "tests/"
+      "flexycms\\FlexySiteSkeletonBundle\\Tests\\": "tests/"
     }
   },
   "scripts": {
